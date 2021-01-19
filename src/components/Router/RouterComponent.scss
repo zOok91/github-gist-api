@@ -1,0 +1,22 @@
+.router-container{
+   width: 75%;
+}
+
+.navbar-container{
+    border-bottom: 0.1rem solid rgb(234, 236, 240);
+    padding: 1rem 2rem 0rem 1rem;
+    display: flex;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .active-route{
+        border-bottom: 0.15rem solid red;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .router-container{
+        width: 100%;
+    }
+  }

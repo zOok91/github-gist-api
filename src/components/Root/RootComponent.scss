@@ -1,0 +1,37 @@
+.root-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "apple-system", "system-ui", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.header-container{
+    // flex: 1;
+    background-color: rgb(35, 41, 47);
+}
+
+.body-container{
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:2rem;
+    border-top: 0.2rem solid rgb(234, 236, 240);
+
+    div{
+        padding:2rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .body-container{
+        display: flex;
+      flex-direction: column;
+    }
+  }

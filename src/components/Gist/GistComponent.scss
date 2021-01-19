@@ -1,0 +1,64 @@
+.gist-container{
+    font-family: 'system-ui';
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-bottom: 0.17rem solid  rgb(234, 236, 240);
+
+    .file-name-container{
+        padding: 1rem 0rem;
+        font-size: 1.7rem;
+        font-weight: 500;
+        // overflow-wrap: break-word;
+        span{
+            // white-space: nowrap;
+            word-wrap:break-word;
+            width: 100%;
+        }
+        span:nth-child(2){
+            border-radius: 0.5rem;
+            padding: 0.2rem 0.7rem;
+            margin: 0rem 1rem;
+            background-color: rgb(251, 202, 4);
+            font-weight: 300;
+            font-size: 0.9rem;
+
+        }
+    }
+    .subsection-container{
+        margin: 0.4rem 0rem 0rem 0rem;
+        font-size: 0.9rem;
+        font-weight: 200;
+        span{
+            padding: 0rem 0.4rem;
+        }
+    }
+    .forks-container{
+        font-family: "system-ui";
+        font-weight: 400;
+        font-size: 0.9rem;
+        padding: 0.3rem;
+        .fork-title{
+            padding: 0.3rem;
+            font-size: 1.2rem;
+            span{
+                justify-content: center;
+            }
+        }
+        .fork-list{
+            display: flex;
+            flex-direction: column;
+            padding: 0rem 1rem;
+            img{
+                margin: 0rem 0.5rem 0rem 0rem;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .no-forks{
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding: 0.5rem 0.2rem;
+    }
+}

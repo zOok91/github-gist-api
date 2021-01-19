@@ -1,0 +1,11 @@
+.tabname-container{
+    padding:1rem;
+    display: flex;
+    span{
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        padding-right: 0.3rem;
+    }
+}
